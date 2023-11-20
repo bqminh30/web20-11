@@ -1,6 +1,6 @@
 body {
-    background-color: #222048;
-    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    color: #222048;
     text-align: center;
 }
 
@@ -29,9 +29,10 @@ canvas {
     height: 35px;
     text-transform: uppercase;
     font-family: 'Pacifico', cursive;
-    color: #348E38;
+    color: #ffffff;
     margin-top: 20px;
 }
+
 
 .feliz {
     width: 100%;
@@ -399,7 +400,7 @@ a.author {
 }
 
 @media only screen and (max-width: 554px) {
-    /* .ano_novo {
+    .ano_novo {
         position: absolute;
         top: 200px;
         left: 0;
@@ -411,7 +412,12 @@ a.author {
         align-items: center;
         overflow: hidden;
         padding: 200px 100px 0px 0px;
-    } */
+    }
+
+    .ano_novo>span {
+        font-weight: 700;
+        padding-left: 10px;
+    }
 
     .feliz {
         top: 32%;
